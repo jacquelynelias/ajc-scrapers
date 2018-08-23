@@ -2,8 +2,8 @@
 
 import re, os, sys, linecache, csv
 
-file_name = "/Users/jelias/Documents/Pardons/to_be_separated_paper.csv" #Location of the .txt file
-output_file_name = "/Users/jelias/Documents/Pardons/fixed_paper.csv"
+file_name = "" #Location of the .txt file
+output_file_name = ""
 orig_file = []
 
 # Reads input file

@@ -3,9 +3,9 @@
 import re, os, sys, linecache, csv
 
 orig_file = []
-file_name = "/Volumes/news_xfer/jackie/combined_four_files_rhonda_pardon_certs.txt" #Location of the .txt file
+file_name = "" #Location of the .txt file
 path_out = os.getcwd() + "\\"
-output_file_name = "/Users/jelias/Documents/Pardons/output.csv"
+output_file_name = ""
 finds = {}
 cases = []
 
