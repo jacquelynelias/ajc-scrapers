@@ -23,6 +23,7 @@ To run, insert the file name at the top of the file and run "python amus.py or p
 Before inserting into the warehouse, I went through the violations to check if they were properly formatted. I added the following fields:
 park_id = each park is given an ID. Check the previous year inspection to find
 page_num = I added this when cleaning to easily check which page the inspection was on
+cond_num = this is a number associated to each violation such as "rails", "electrical", etc.. I found that sometimes the violations would be mispelled, so this allowed a way to count how many of each violations there are.
 
 When you are ready to insert into the warehouse, there are sql scripts in the G drive.
 
