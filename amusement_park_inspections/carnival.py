@@ -239,7 +239,7 @@ def getPostRemarks(text):
 
 
 #Defines headers for file
-headers = ["company_name", "full_address", "street", "city", "state", "zipcode", "county", "phone", "cont", "cont_phone", "insp_d8", "permit_num", "perm_exp_d8", "state_id_num", "insp_stat", "insp_type", "ga_perm_stick_num", "inspector", "ride_name", "manufacturer", "seating_cap", "serial_num", "manufacture_d8", "child_seating_cap", "speed", "post_remarks", "condition", "viol_d8", "correct_d8", "resolve_d8", "comment"]
+headers = ["company_name", "full_address", "street", "city", "state", "zipcode", "county", "phone", "cont", "cont_phone", "insp_d8", "permit_num", "perm_exp_d8", "state_id_num", "insp_stat", "insp_type", "ga_perm_stick_num", "inspector", "ride_name", "manufacturer", "seating_cap", "serial_num", "manufacture_d8", "child_seating_cap", "speed", "post_remarks", "condition", "viol_d8", "correct_d8", "resolve_d8", "comment", "type"]
 
 #Creates output file with headers
 create_output_file(output_file_name, headers)
@@ -282,6 +282,7 @@ try:
 		correct_d8=''
 		resolve_d8=''
 		comment=''
+		type = 'Carnival'
 
 		
 		full_text = match[0]
